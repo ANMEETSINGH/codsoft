@@ -1,0 +1,130 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header/navigation */
+header {
+  background: linear-gradient(to bottom, #170107, #ff3300);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #0bea1a; /* Change link color on hover */
+}
+
+/* Style the hero section */
+.hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: black;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+}
+
+.hero p {
+  font-size: 24px;
+  color: #ff000079;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(to bottom, #ff3300, #ff6600);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px; /* Make the button more rounded */
+  margin-top: 20px;
+  font-size: 20px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: linear-gradient(
+    to bottom,
+    #ff6600,
+    #ff3300
+  ); /* Change button gradient on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
+}
+
+/* Style the features section */
+.features {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.feature {
+  margin-bottom: 40px;
+  background: rgba(
+    255,
+    204,
+    0,
+    0.2
+  ); /* Add a semi-transparent background color */
+  padding: 30px;
+  border-radius: 10px; /* Make the feature boxes more rounded */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 5px solid #ff6600; /* Add a border around the images */
+  border-radius: 50%; /* Make the images circular */
+}
+
+.feature h3 {
+  font-size: 30px;
+  color: #ff6600;
+  margin-bottom: 10px;
+  text-transform: uppercase; /* Uppercase text */
+}
+
+.feature p {
+  font-size: 18px;
+  color: #333;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #ff6600, #ff3300);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  font-size: 18px;
+  font-weight: bold;
+}
